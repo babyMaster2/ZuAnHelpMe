@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>668</width>
+    <height>518</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>fuck you</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>641</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="rowCount">
+     <number>4</number>
+    </property>
+    <property name="columnCount">
+     <number>3</number>
+    </property>
+    <attribute name="horizontalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>200</number>
+    </attribute>
+    <attribute name="horizontalHeaderHighlightSections">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderStretchLastSection">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>100</number>
+    </attribute>
+    <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderStretchLastSection">
+     <bool>true</bool>
+    </attribute>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>按键</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Agency FB</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>操作</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Agency FB</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>计数</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Agency FB</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>F2</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Agency FB</family>
+       <pointsize>28</pointsize>
+      </font>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>测试词库</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>F3</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Agency FB</family>
+       <pointsize>28</pointsize>
+      </font>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>攻击词库</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>F12</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Agency FB</family>
+       <pointsize>28</pointsize>
+      </font>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>自定义词库</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>**</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Agency FB</family>
+       <pointsize>28</pointsize>
+      </font>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>友谊第一，比赛第二</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber_1">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>100</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber_2">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>200</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber_3">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>300</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>668</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menusetting">
+    <property name="title">
+     <string>设置</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_github">
+    <property name="title">
+     <string>github</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_qq">
+    <property name="title">
+     <string>qq</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_update">
+    <property name="title">
+     <string>更新</string>
+    </property>
+   </widget>
+   <addaction name="menusetting"/>
+   <addaction name="menu_github"/>
+   <addaction name="menu_qq"/>
+   <addaction name="menu_update"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="test_quotes">
+   <property name="text">
+    <string>默认词库</string>
+   </property>
+  </action>
+  <action name="attack_quotes">
+   <property name="text">
+    <string>自定义词库</string>
+   </property>
+  </action>
+  <action name="custom_quotes">
+   <property name="text">
+    <string>测试词库</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
