@@ -5,7 +5,6 @@ import random
 import keyboard
 import time
 from .menu import MenuActions
-import os
 
 
 class MyMainWin(QMainWindow):
