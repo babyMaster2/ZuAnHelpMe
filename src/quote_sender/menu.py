@@ -42,7 +42,7 @@ class MenuActions:
 
     def github_triggered(self):
         # 打开 GitHub 页面
-        url = QUrl("https://github.com/your_github_repo")  # 请替换为你的 GitHub 仓库链接
+        url = QUrl("https://github.com/babyMaster2/ZuAnHelpMe")
         QDesktopServices.openUrl(url)
 
     def qq_triggered(self):
