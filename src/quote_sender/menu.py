@@ -27,6 +27,11 @@ class MenuActions:
         qq_action.triggered.connect(self.qq_triggered)
         main_window.ui.menu_qq.addAction(qq_action)
 
+        # 常见更新菜单项
+        update_action = QAction("更新", main_window)
+        update_action.triggered.connect(self.update_triggered)
+        main_window.ui.menu_update.addAction(update_action)
+
         # 绑定词库
         default_quotes_action = QAction("默认词库", main_window)
         default_quotes_action.triggered.connect(self.bind_default_quotes)
@@ -62,8 +67,8 @@ class MenuActions:
         dialog = DocumentLibraryDialog('test_quotes')
         dialog.exec_()
 
-
-
+    def update_triggered(self):
+        pass
 
 
 
